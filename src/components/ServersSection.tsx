@@ -7,31 +7,6 @@ const gameServers = [
     imageUrl: "https://images.unsplash.com/photo-1627398342588-4be110f247e9?w=600&auto=format&q=80",
     description: "Host vanilla or modded Minecraft servers with automatic backups and plugin support.",
   },
-  {
-    name: "ARK: Survival Evolved",
-    imageUrl: "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&q=80",
-    description: "Manage your ARK server with our optimized configuration for better performance.",
-  },
-  {
-    name: "Counter-Strike 2",
-    imageUrl: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&q=80",
-    description: "Run CS2 servers with anti-cheat integration, custom maps and competitive settings.",
-  },
-  {
-    name: "Rust",
-    imageUrl: "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&q=80",
-    description: "Deploy Rust servers with our specially tuned performance settings and mod support.",
-  },
-  {
-    name: "Valheim",
-    imageUrl: "https://images.unsplash.com/photo-1482855549413-2a6c9b1955a7?w=600&auto=format&q=80",
-    description: "Host your Viking adventures with friends on our optimized Valheim servers.",
-  },
-  {
-    name: "Custom Game Server",
-    imageUrl: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&auto=format&q=80",
-    description: "Deploy any game server with our custom configuration options and full root access.",
-  },
 ];
 
 const ServersSection = () => {
