@@ -1,24 +1,22 @@
 import React from "react";
 
-const DISCORD_LINK = "https://discord.gg/JZARrGC8g6"; // ← replace with your real invite link
+const DISCORD_LINK = "https://discord.gg/JZARrGC8g6"; // replace with your real link
 
 const HeroSection: React.FC = () => {
   const handleGetStarted = () => {
     window.open(DISCORD_LINK, "_blank");
   };
 
-  const handleViewPricing = () => {
-    const section = document.getElementById("minecraft-plans");
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+  const handleViewsClick = () => {
+    const plans = document.getElementById("minecraft-plans");
+    if (plans) {
+      plans.scrollIntoView({ behavior: "smooth" });
     }
   };
 
   return (
-    <section className="min-h-screen flex items-center justify-center text-center px-6 relative">
-      
-      {/* CONTENT */}
-      <div className="max-w-4xl z-10">
+    <section className="min-h-screen flex items-center justify-center text-center px-6">
+      <div className="max-w-4xl">
 
         {/* TITLE */}
         <h1 className="text-5xl md:text-6xl font-extrabold mb-6">
@@ -27,13 +25,13 @@ const HeroSection: React.FC = () => {
 
         {/* SUBTITLE */}
         <p className="text-lg md:text-xl text-gray-300 font-bold mb-10">
-          High Performance Minecraft Hosting — Fast, Reliable, Affordable
+          High Performance Minecraft Hosting — Fast & Reliable
         </p>
 
-        {/* BUTTON GROUP */}
+        {/* BUTTONS */}
         <div className="flex flex-wrap gap-4 justify-center">
 
-          {/* GET STARTED */}
+          {/* GET STARTED → DISCORD */}
           <button
             onClick={handleGetStarted}
             className="minecraft-button px-8 py-3 text-lg"
@@ -41,12 +39,12 @@ const HeroSection: React.FC = () => {
             Get Started
           </button>
 
-          {/* VIEW PRICING */}
+          {/* VIEWS → PLAN SECTION */}
           <button
-            onClick={handleViewPricing}
+            onClick={handleViewsClick}
             className="border-2 border-pink-500 px-8 py-3 rounded-lg font-extrabold hover:bg-pink-500/20 transition"
           >
-            View Pricing
+            Views
           </button>
 
         </div>
