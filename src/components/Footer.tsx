@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <Gamepad className="h-6 w-6 text-game" />
-              <span className="text-xl font-bold text-white">GameHostHaven</span>
+              <span className="text-xl font-bold text-white">Cherry Nodes</span>
             </div>
             <p className="text-gray-400 mb-6">
               Premium game server hosting with high performance hardware, global network, and 24/7 support for gamers worldwide.
@@ -34,11 +34,6 @@ const Footer = () => {
             <h3 className="text-lg font-bold mb-6">Games</h3>
             <ul className="space-y-4">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Minecraft</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">ARK: Survival Evolved</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Counter-Strike 2</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Rust</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Valheim</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">View All Games</a></li>
             </ul>
           </div>
           
@@ -66,14 +61,14 @@ const Footer = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 text-game mr-3" />
-                <span className="text-gray-400">support@gamehosthaven.com</span>
+                <span className="text-gray-400">support@cherrynodes.com</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} GameHostHaven. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Cherry Nodes. All rights reserved.</p>
         </div>
       </div>
     </footer>
