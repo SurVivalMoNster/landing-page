@@ -18,7 +18,7 @@ const CTASection = () => {
           </div>
           
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Level Up Your <span className="text-gradient">Game Hosting</span>?
+            Ready to Level Up Your <span className="text-gradient">Cherry Nodes</span>?
           </h2>
           
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
