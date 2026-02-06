@@ -1,6 +1,6 @@
 import React from "react";
 
-const DISCORD_LINK = "https://discord.gg/JZARrGC8g6"; // replace with your real link
+const DISCORD_LINK = "https://discord.gg/JZARrGC8g6"; // replace with your real invite
 
 const HeroSection: React.FC = () => {
   const handleGetStarted = () => {
@@ -31,7 +31,7 @@ const HeroSection: React.FC = () => {
         {/* BUTTONS */}
         <div className="flex flex-wrap gap-4 justify-center">
 
-          {/* GET STARTED → DISCORD */}
+          {/* GET STARTED */}
           <button
             onClick={handleGetStarted}
             className="minecraft-button px-8 py-3 text-lg"
@@ -39,7 +39,7 @@ const HeroSection: React.FC = () => {
             Get Started
           </button>
 
-          {/* VIEWS → PLAN SECTION */}
+          {/* VIEWS → PLANS */}
           <button
             onClick={handleViewsClick}
             className="border-2 border-pink-500 px-8 py-3 rounded-lg font-extrabold hover:bg-pink-500/20 transition"
