@@ -1,6 +1,6 @@
 import { Check } from "lucide-react";
 
-const BUY_LINK = "https://gp.opeximcloud.com/";
+const BUY_LINK = "https://discord.gg/JZARrGC8g6";
 
 const plans = [
   { name: "Dirt", price: "₹39", ram: "2GB", cpu: "50%", disk: "10GB" },
