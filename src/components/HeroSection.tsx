@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8 relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            High-Performance <span className="text-gradient">Game Hosting</span> Made Simple
+            High-Performance <span className="text-gradient">Cherry Nodes</span> Made Simple
           </h1>
           <p className="text-xl text-gray-300 md:pr-12">
             Launch your game server in seconds with our optimized hosting platform. Low latency, high performance, 24/7 support.
